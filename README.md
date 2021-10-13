@@ -6,3 +6,8 @@ Mongo Loves Data - Flutter project see https://mongo-loves-data.medium.com/from-
 This repository has two components
 * A express/node server that directly accesses Realm via the JS/WEB SDK
 * A Flutter map using Google maps
+
+
+
+![Flutter app](map_flutter/android%20MLD.gif)
+
