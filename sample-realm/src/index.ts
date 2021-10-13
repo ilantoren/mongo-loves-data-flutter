@@ -43,6 +43,7 @@ const config = {
 let realmService: RealmInterface;
 const realm = new Realm.App(config);
 // Use a Realm token for authentication kept in the .env
+// an alternative would be to use the anonymous authentication
 const key = String(process.env.API_KEY)
 const credentials = Realm.Credentials.userApiKey(key);
 const myPromise = new Promise<User>((resolve, reject) => {
